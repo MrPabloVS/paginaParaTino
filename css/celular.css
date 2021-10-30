@@ -1,0 +1,16 @@
+[for=checkbox]
+{
+    display: initial;
+}
+nav a:not(:first-of-type) {
+    display: none;
+   /* visibility: hidden; */
+}
+#checkbox:checked ~ nav a {
+    display: initial;
+    /* visibility: visible; */
+
+}
+nav>a {
+    flex: 100%;
+}
