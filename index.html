@@ -5,103 +5,196 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papeles Norte</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/celular.css" media="all and (max-width: 640px)">
+    <!-- <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/celular.css" media="all and (max-width: 744px)">
+    <link rel="stylesheet" href="assets/css/ultrachico.css" media="all and (max-width: 530px)">
+    <link rel="stylesheet" href="assets/css/fotorama.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body>
+<body > 
     <!-- Navbar -->
     <header id="nav"> 
-        <input type="checkbox" id="checkbox">
-        <label for="checkbox">Ξ</label>
-        <nav  >
-            <div class="navDiv">
-              <a href="#">Papel</a>
-              
-              <div >
-                <ul class="navUl">
-                  <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li >
-                    <a href="#">Contactanos</a>
-                  </li>
-                  <li >
-                    <a href="#">Quienes Somos</a>
-                  </li>
-                  <li>
-                    <a heref="">Con que trabajamos</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
-    </header> 
-        <!-- zona principal -->
-        <div class="zonaPrincipal">
-            <div class="zonaPrincipalDiv">
-                <img class="zpImg" src="img/i1.png" alt="cajas apiladas">
-                <p> Gran Variedad y stock permanente</p> 
-                
-            </div>
-
-            <div class="zonaPrincipalDiv">
-                <img class="zpImg" src="img/i2.png" alt="medalla">
-                <p>Calidad Garantizada</p>
-            </div>
-
-            <div class="zonaPrincipalDiv">
-                <img class="zpImg" src="img/i3.png" alt="manos de mercado libre">
-                <p>40 Años de Trayectoria</p>
-            </div>
-
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo" src="assets/img/Logo.png" alt="Logo Sitio" width="200px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#ProDuc">PRODUCTOS Des.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#CONTACTO">CONTACTOS</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+        
+    </header>  
+    
+    
+    
+    <section>
+            <h2 class="text-center">NOSOTROS</h2>
+            <div>
+              <p>
+                Somos una empresa dedicada a la comercialización y distribución de papel para la industria gráfica.
+              </p><br>
+              <p>
+                Las imagenes que demuestran las instalaciones de la empresa. Nosotros abrimos a las 7:30 AM y cerramos a las 6:00 PM. 
+              </p>
+            </div>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4PbYej-USEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="envoFotorama w-75 justify-content-center">
+<!-- Carousel -->
+
+<div id="demo" class="carousel slide " data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/galeria/img1.jpg" alt="" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/galeria/img2.jpg" alt="" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/galeria/img3.jpg" alt="" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/galeria/img4.jpg" alt="" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/galeria/img5.jpg" alt="" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+    </section>
+
+
         <!-- Productos destacados -->
-        <div class="productosDestacados">
-            <!-- Card 1 -->
-             <div class="card">
-                <img src="img/cajaTino.png"  alt="..." width="200px">
-                <div >
-                  <p >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
+        <div class="contenedorGrandeProductosDestacados ">
+
+          <h2 class="text-center" id="ProDuc">PRODUCTOS DESTACADOS</h2>
+
+          <div class="productosDestacados row row-cols-sm-6">
+              <!-- Card 1 -->
+               <div class="card col" >
+                  <img src="assets/img/chamexpapelblanco.png"  alt="foto chamex hojas blancas">
+                  <div class="cardTxt card-body">
+                    <p class="precio">$533</p>
+                    <p >Resma Papel A4 500 Hojas 75 Grs Para Inkjet Y Laser Oficina.</p>
+                  </div>
                 </div>
-              </div>
-              <!-- Card 2 -->
-              <div class="card">
-                <img src="img/cajaTino.png"  alt="..." width="200px">
-                <div >
-                  <p >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
+
+                <!-- Card 2 -->
+                <div class="card col " >
+                   <picture>
+                    
+                    <source srcset="assets/img/chamexpapelamarillo.png" media="(min-width: 745px)">
+                    <source srcset="assets/img/fotocardscelu/chamexpapelamarillocelular.png" media="(min-width:530px) and (max-width:744px)">
+                    <img src="assets/img/chamexpapelamarillo.png" alt="foto chamex hojas amarillas">
+                  </picture> 
+                  <!-- <img src="assets/img/chamexpapelamarillo.png" alt="foto chamex hojas amarillas"> -->
+                  <div class="cardTxt card-body">
+                    <p class="precio">$687</p>
+                    <p >Resma A4 Amarillo Chamex 75 Gr.</p>
+                  </div>
                 </div>
-              </div>
-              <!-- Card 3 -->
-              <div class="card">
-                <img src="img/cajaTino.png"  alt="..." width="200px">
-                <div class="cardTxt">
-                  <p >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
+
+                
+
+                <!-- Card 3 -->
+                <div class="card col" >
+                  <img src="assets/img/PapelChambril.png"  alt="laminas de hojas de la marca chambril">
+                  <div class="cardTxt card-body">
+                    <p class="precio">$520</p>
+                    <p >Opalina Cartulina A4 125 Hojas 180 Grs Chambril Blanco.</p>
+                  </div>
                 </div>
-              </div>
+
+                <!-- Card 4 -->
+                <div class="card col" >
+                  <img src="assets/img/PapelChambril.png"  alt="laminas de hojas de la marca chambril">
+                  <div class="cardTxt card-body">
+                    <p class="precio">$520</p>
+                    <p >Opalina Cartulina A4 125 Hojas 180 Grs Chambril Blanco.</p>
+                  </div>
+                </div>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        <!-- Paboneo -->
+        <div class="zonaPrincipal bg-info row align-items-baseline">
+          <div class="zonaPrincipalDiv col">
+              <img class="zpImg" src="assets/img/i1.png" alt="cajas apiladas">
+              <p> Gran Variedad y stock permanente</p> 
+              
+          </div>
+
+          <div class="zonaPrincipalDiv col">
+              <img class="zpImg" src="assets/img/i2.png" alt="medalla">
+              <p>Calidad Garantizada</p>
+          </div>
+
+          <div class="zonaPrincipalDiv col">
             
+              <img class="zpImg " src="assets/img/i3.png" alt="manos de mercado libre" >
+              <p>40 Años de Trayectoria</p>
+            
+          </div>
         </div>
-        <div class="masProductos">
-            <button >Mas Productos </button>
-        </div>
+
+
+
         <!-- Pedir Presupuesto -->
-        <div class="pedirPresupuesto">
+        <div id="CONTACTO" class="pedirPresupuesto">
 
             <h2>Pedir Presupuesto</h2>
             <h4>De manera rapida y sin costo</h4>
-            <button>Pedir Presupuesto</button>
-
         </div>
 
         <!-- Formulario de contacto -->
-        <div>
-            <section class="padingGenerico "><h3 class="marginAuto">Formulario de Contacto</h3>
-                <p >Si quiere contactarme, por la razon que fuera, porfavor complete el siguiente formulario.</p></section>
-            <section class="conteiner padingGenerico">
+        <section class="contacto container row align-items-center">
+          <div class="div1C col">
+            <div>
+                <h3 class="marginAuto text-center">Formulario de Contacto</h3>
+                <p>
+                  Porfavor complete el siguiente formulario o comunicate a travez de nuestros contactos.
+                </p>
+            </div>
+            <div class="formulario">
                     <Form action="#"></Form>
-                        <Fieldset class="padingGenerico index__Article--paddingTop">
+                        <Fieldset>
         
                                 <!-- Input de Nombre  y mail-->
                                 <div>
@@ -110,7 +203,7 @@
                                 </div>
                                 <div>
                                 <label for="exampleFormControlInput1" >Direcion de Mail</label>
-                                  <input type="text"  id="exampleFormControlInput2" placeholder="Nombre Apellido">
+                                  <input type="text"  id="exampleFormControlInput2" placeholder="Mail">
                                 </div>
                                     <p>Razón de contacto:</p>
         
@@ -140,9 +233,6 @@
                               </label>
                             </div>
                             <br>
-        
-                           
-        
                                 <!-- Textarea -->
                                 <br><div class="textArea">
                                   <label for="exampleFormControlTextarea1" >Escriba su consulta:</label>
@@ -154,13 +244,44 @@
                             <input type="reset" value="Reiniciar Formulario" >
                             <input type="submit" value="Enviar" >
         
-                        </Fieldset></section>
-        </div>
-
+                        </Fieldset>
+             </div>
+          </div>
+          <div class="div2C col">
+            <div>
+              <h3 class="text-center">Nuestros contactos</h3>
+              <p>
+                Acá se encuentran nuestros contactos para tener una comunicación mas directa.
+              </p>
+            </div>
+            <div class="info">
+              <div>
+                <p>Telefono:</p>
+                <p>11 5429 1446</p>
+              </div>
+              <div>
+                <p>Mail:</p>
+                <p><a href="mailto:papelmill@gmail.com" title="mailto:papelmill@gmail.com" target="_blank" rel="noopener noreferrer" class="i0jNr selectable-text copyable-text">papelmill@gmail.com</a></p>
+              </div>
+              <div>
+                <p>Direccion:</p>
+                <p> Derqui 8436 Munro</p>
+              </div>
+              <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.2679564082173!2d-58.53350263355143!3d-34.52143856495304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0c007934b3d%3A0xd0447b18ba99da46!2sPres.%20Santiago%20Derqui%208436%2C%20Carapachay%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1635910253226!5m2!1ses!2sar" style="border: 0; " allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+                    
+                    
 
         <!-- Footer -->
         <footer>
-            <p>Derechos reservados por Papel Norte TM </p>
+            <p class="text-center">Derechos reservados por Papel Norte TM </p>
+            <p></p>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
