@@ -1,55 +1,12 @@
-[for=checkbox]
-{
-    display: initial;
-}
-.logo{
-    margin-left: 0px;
-}
-nav a:not(:first-of-type) {
-    display: none;
-   /* visibility: hidden; */
-}
-#checkbox:checked ~ nav a {
-    display: initial;
-    /* visibility: visible; */
 
-}
-.productosDestacados{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-
-.productosDestacados div:nth-of-type(even){
-   margin-inline-start: auto;
-
-}
-div .card img{
-    width: 180px;
-}
-nav>a {
-    flex: 100%;
-}
-.card{
-    display: flex;
-    flex-flow: row;
-    width:  500px;
-}
-.contenedorGrandeProductosDestacados{
-    height: 1045px;
-}
-.contacto{
-    display: flex;
-    flex-direction: column;
-}
-.zonaPrincipal{
-    flex-direction: column;
-}
 .div1C{
     width: 100%;
+    border-radius: 0px;
+    background-color: #b7e4c7;
+
 }
 .div2C{
-    border-radius: 10px;
+    border-radius: 0px;
     background-color: #b7e4c7;
     width: 100%;
 }
